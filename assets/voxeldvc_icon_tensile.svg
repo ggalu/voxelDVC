@@ -1,0 +1,178 @@
+<svg width="680" height="420" viewBox="0 0 680 420" xmlns="http://www.w3.org/2000/svg" role="img">
+<title>voxelDVC icon (tensile)</title>
+<desc>Two voxelated cube volumes built from the same consistent 3D grid: a reference volume f(x) on the left with uniformly zero distortion (shown in blue), and a tensile-necked, deformed volume g(x+u) on the right that elongates axially while its cross-section contracts at mid-length, the opposite of an earlier compressive-bulge version. Voxel faces are colored on a blue to green to red colormap according to the local lateral (necking) displacement magnitude, red indicating the most distortion at the neck. An arrow labeled u(x) connects the two, and a color legend at the bottom reads low to high distortion.</desc>
+<defs>
+<marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+<path d="M2 1L8 5L2 9" fill="none" stroke="#5F5E5A" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+</marker>
+</defs>
+<style>
+  text { font-family: -apple-system, "Segoe UI", Helvetica, Arial, sans-serif; fill: #2C2C2A; }
+  .th { font-size: 15px; font-weight: 600; }
+  .ts { font-size: 12px; fill: #5F5E5A; }
+</style>
+
+<!-- LEFT cube: reference, zero distortion (blue) -->
+<polygon points="165.0,126.0 183.2,136.5 165.0,147.0 146.8,136.5" fill="#378ADD" fill-opacity="0.85" stroke="#2C2C2A" stroke-opacity="0.25" stroke-width="0.5"/>
+<polygon points="146.8,136.5 165.0,147.0 146.8,157.5 128.6,147.0" fill="#378ADD" fill-opacity="0.85" stroke="#2C2C2A" stroke-opacity="0.25" stroke-width="0.5"/>
+<polygon points="128.6,147.0 146.8,157.5 128.6,168.0 110.4,157.5" fill="#378ADD" fill-opacity="0.85" stroke="#2C2C2A" stroke-opacity="0.25" stroke-width="0.5"/>
+<polygon points="110.4,157.5 128.6,168.0 110.4,178.5 92.3,168.0" fill="#378ADD" fill-opacity="0.85" stroke="#2C2C2A" stroke-opacity="0.25" stroke-width="0.5"/>
+<polygon points="183.2,136.5 201.4,147.0 183.2,157.5 165.0,147.0" fill="#378ADD" fill-opacity="0.85" stroke="#2C2C2A" stroke-opacity="0.25" stroke-width="0.5"/>
+<polygon points="165.0,147.0 183.2,157.5 165.0,168.0 146.8,157.5" fill="#378ADD" fill-opacity="0.85" stroke="#2C2C2A" stroke-opacity="0.25" stroke-width="0.5"/>
+<polygon points="146.8,157.5 165.0,168.0 146.8,178.5 128.6,168.0" fill="#378ADD" fill-opacity="0.85" stroke="#2C2C2A" stroke-opacity="0.25" stroke-width="0.5"/>
+<polygon points="128.6,168.0 146.8,178.5 128.6,189.0 110.4,178.5" fill="#378ADD" fill-opacity="0.85" stroke="#2C2C2A" stroke-opacity="0.25" stroke-width="0.5"/>
+<polygon points="201.4,147.0 219.6,157.5 201.4,168.0 183.2,157.5" fill="#378ADD" fill-opacity="0.85" stroke="#2C2C2A" stroke-opacity="0.25" stroke-width="0.5"/>
+<polygon points="183.2,157.5 201.4,168.0 183.2,178.5 165.0,168.0" fill="#378ADD" fill-opacity="0.85" stroke="#2C2C2A" stroke-opacity="0.25" stroke-width="0.5"/>
+<polygon points="165.0,168.0 183.2,178.5 165.0,189.0 146.8,178.5" fill="#378ADD" fill-opacity="0.85" stroke="#2C2C2A" stroke-opacity="0.25" stroke-width="0.5"/>
+<polygon points="146.8,178.5 165.0,189.0 146.8,199.5 128.6,189.0" fill="#378ADD" fill-opacity="0.85" stroke="#2C2C2A" stroke-opacity="0.25" stroke-width="0.5"/>
+<polygon points="219.6,157.5 237.7,168.0 219.6,178.5 201.4,168.0" fill="#378ADD" fill-opacity="0.85" stroke="#2C2C2A" stroke-opacity="0.25" stroke-width="0.5"/>
+<polygon points="201.4,168.0 219.6,178.5 201.4,189.0 183.2,178.5" fill="#378ADD" fill-opacity="0.85" stroke="#2C2C2A" stroke-opacity="0.25" stroke-width="0.5"/>
+<polygon points="183.2,178.5 201.4,189.0 183.2,199.5 165.0,189.0" fill="#378ADD" fill-opacity="0.85" stroke="#2C2C2A" stroke-opacity="0.25" stroke-width="0.5"/>
+<polygon points="165.0,189.0 183.2,199.5 165.0,210.0 146.8,199.5" fill="#378ADD" fill-opacity="0.85" stroke="#2C2C2A" stroke-opacity="0.25" stroke-width="0.5"/>
+<polygon points="237.7,168.0 219.6,178.5 219.6,199.5 237.7,189.0" fill="#378ADD" fill-opacity="0.85" stroke="#2C2C2A" stroke-opacity="0.25" stroke-width="0.5"/>
+<polygon points="237.7,189.0 219.6,199.5 219.6,220.5 237.7,210.0" fill="#378ADD" fill-opacity="0.85" stroke="#2C2C2A" stroke-opacity="0.25" stroke-width="0.5"/>
+<polygon points="237.7,210.0 219.6,220.5 219.6,241.5 237.7,231.0" fill="#378ADD" fill-opacity="0.85" stroke="#2C2C2A" stroke-opacity="0.25" stroke-width="0.5"/>
+<polygon points="237.7,231.0 219.6,241.5 219.6,262.5 237.7,252.0" fill="#378ADD" fill-opacity="0.85" stroke="#2C2C2A" stroke-opacity="0.25" stroke-width="0.5"/>
+<polygon points="219.6,178.5 201.4,189.0 201.4,210.0 219.6,199.5" fill="#378ADD" fill-opacity="0.85" stroke="#2C2C2A" stroke-opacity="0.25" stroke-width="0.5"/>
+<polygon points="219.6,199.5 201.4,210.0 201.4,231.0 219.6,220.5" fill="#378ADD" fill-opacity="0.85" stroke="#2C2C2A" stroke-opacity="0.25" stroke-width="0.5"/>
+<polygon points="219.6,220.5 201.4,231.0 201.4,252.0 219.6,241.5" fill="#378ADD" fill-opacity="0.85" stroke="#2C2C2A" stroke-opacity="0.25" stroke-width="0.5"/>
+<polygon points="219.6,241.5 201.4,252.0 201.4,273.0 219.6,262.5" fill="#378ADD" fill-opacity="0.85" stroke="#2C2C2A" stroke-opacity="0.25" stroke-width="0.5"/>
+<polygon points="201.4,189.0 183.2,199.5 183.2,220.5 201.4,210.0" fill="#378ADD" fill-opacity="0.85" stroke="#2C2C2A" stroke-opacity="0.25" stroke-width="0.5"/>
+<polygon points="201.4,210.0 183.2,220.5 183.2,241.5 201.4,231.0" fill="#378ADD" fill-opacity="0.85" stroke="#2C2C2A" stroke-opacity="0.25" stroke-width="0.5"/>
+<polygon points="201.4,231.0 183.2,241.5 183.2,262.5 201.4,252.0" fill="#378ADD" fill-opacity="0.85" stroke="#2C2C2A" stroke-opacity="0.25" stroke-width="0.5"/>
+<polygon points="201.4,252.0 183.2,262.5 183.2,283.5 201.4,273.0" fill="#378ADD" fill-opacity="0.85" stroke="#2C2C2A" stroke-opacity="0.25" stroke-width="0.5"/>
+<polygon points="183.2,199.5 165.0,210.0 165.0,231.0 183.2,220.5" fill="#378ADD" fill-opacity="0.85" stroke="#2C2C2A" stroke-opacity="0.25" stroke-width="0.5"/>
+<polygon points="183.2,220.5 165.0,231.0 165.0,252.0 183.2,241.5" fill="#378ADD" fill-opacity="0.85" stroke="#2C2C2A" stroke-opacity="0.25" stroke-width="0.5"/>
+<polygon points="183.2,241.5 165.0,252.0 165.0,273.0 183.2,262.5" fill="#378ADD" fill-opacity="0.85" stroke="#2C2C2A" stroke-opacity="0.25" stroke-width="0.5"/>
+<polygon points="183.2,262.5 165.0,273.0 165.0,294.0 183.2,283.5" fill="#378ADD" fill-opacity="0.85" stroke="#2C2C2A" stroke-opacity="0.25" stroke-width="0.5"/>
+<polygon points="92.3,168.0 110.4,178.5 110.4,199.5 92.3,189.0" fill="#378ADD" fill-opacity="0.85" stroke="#2C2C2A" stroke-opacity="0.25" stroke-width="0.5"/>
+<polygon points="92.3,189.0 110.4,199.5 110.4,220.5 92.3,210.0" fill="#378ADD" fill-opacity="0.85" stroke="#2C2C2A" stroke-opacity="0.25" stroke-width="0.5"/>
+<polygon points="92.3,210.0 110.4,220.5 110.4,241.5 92.3,231.0" fill="#378ADD" fill-opacity="0.85" stroke="#2C2C2A" stroke-opacity="0.25" stroke-width="0.5"/>
+<polygon points="92.3,231.0 110.4,241.5 110.4,262.5 92.3,252.0" fill="#378ADD" fill-opacity="0.85" stroke="#2C2C2A" stroke-opacity="0.25" stroke-width="0.5"/>
+<polygon points="110.4,178.5 128.6,189.0 128.6,210.0 110.4,199.5" fill="#378ADD" fill-opacity="0.85" stroke="#2C2C2A" stroke-opacity="0.25" stroke-width="0.5"/>
+<polygon points="110.4,199.5 128.6,210.0 128.6,231.0 110.4,220.5" fill="#378ADD" fill-opacity="0.85" stroke="#2C2C2A" stroke-opacity="0.25" stroke-width="0.5"/>
+<polygon points="110.4,220.5 128.6,231.0 128.6,252.0 110.4,241.5" fill="#378ADD" fill-opacity="0.85" stroke="#2C2C2A" stroke-opacity="0.25" stroke-width="0.5"/>
+<polygon points="110.4,241.5 128.6,252.0 128.6,273.0 110.4,262.5" fill="#378ADD" fill-opacity="0.85" stroke="#2C2C2A" stroke-opacity="0.25" stroke-width="0.5"/>
+<polygon points="128.6,189.0 146.8,199.5 146.8,220.5 128.6,210.0" fill="#378ADD" fill-opacity="0.85" stroke="#2C2C2A" stroke-opacity="0.25" stroke-width="0.5"/>
+<polygon points="128.6,210.0 146.8,220.5 146.8,241.5 128.6,231.0" fill="#378ADD" fill-opacity="0.85" stroke="#2C2C2A" stroke-opacity="0.25" stroke-width="0.5"/>
+<polygon points="128.6,231.0 146.8,241.5 146.8,262.5 128.6,252.0" fill="#378ADD" fill-opacity="0.85" stroke="#2C2C2A" stroke-opacity="0.25" stroke-width="0.5"/>
+<polygon points="128.6,252.0 146.8,262.5 146.8,283.5 128.6,273.0" fill="#378ADD" fill-opacity="0.85" stroke="#2C2C2A" stroke-opacity="0.25" stroke-width="0.5"/>
+<polygon points="146.8,199.5 165.0,210.0 165.0,231.0 146.8,220.5" fill="#378ADD" fill-opacity="0.85" stroke="#2C2C2A" stroke-opacity="0.25" stroke-width="0.5"/>
+<polygon points="146.8,220.5 165.0,231.0 165.0,252.0 146.8,241.5" fill="#378ADD" fill-opacity="0.85" stroke="#2C2C2A" stroke-opacity="0.25" stroke-width="0.5"/>
+<polygon points="146.8,241.5 165.0,252.0 165.0,273.0 146.8,262.5" fill="#378ADD" fill-opacity="0.85" stroke="#2C2C2A" stroke-opacity="0.25" stroke-width="0.5"/>
+<polygon points="146.8,262.5 165.0,273.0 165.0,294.0 146.8,283.5" fill="#378ADD" fill-opacity="0.85" stroke="#2C2C2A" stroke-opacity="0.25" stroke-width="0.5"/>
+
+<!-- RIGHT cube: tensile necking, colored by local lateral distortion magnitude -->
+<polygon points="520.5,122.9 538.6,133.3 521.6,156.6 507.3,148.3" fill="#539367" fill-opacity="0.85" stroke="#2C2C2A" stroke-opacity="0.25" stroke-width="0.5"/>
+<polygon points="507.3,148.3 521.6,156.6 502.3,173.2 489.5,165.9" fill="#A67037" fill-opacity="0.85" stroke="#2C2C2A" stroke-opacity="0.25" stroke-width="0.5"/>
+<polygon points="489.5,165.9 502.3,173.2 479.8,180.7 465.4,172.4" fill="#A67037" fill-opacity="0.85" stroke="#2C2C2A" stroke-opacity="0.25" stroke-width="0.5"/>
+<polygon points="465.4,172.4 479.8,180.7 455.0,181.7 436.8,171.2" fill="#539367" fill-opacity="0.85" stroke="#2C2C2A" stroke-opacity="0.25" stroke-width="0.5"/>
+<polygon points="538.6,133.3 556.8,143.8 535.9,164.8 521.6,156.6" fill="#4E927A" fill-opacity="0.85" stroke="#2C2C2A" stroke-opacity="0.25" stroke-width="0.5"/>
+<polygon points="521.6,156.6 535.9,164.8 515.0,180.6 502.3,173.2" fill="#86832D" fill-opacity="0.85" stroke="#2C2C2A" stroke-opacity="0.25" stroke-width="0.5"/>
+<polygon points="502.3,173.2 515.0,180.6 494.1,189.0 479.8,180.7" fill="#86832D" fill-opacity="0.85" stroke="#2C2C2A" stroke-opacity="0.25" stroke-width="0.5"/>
+<polygon points="479.8,180.7 494.1,189.0 473.2,192.2 455.0,181.7" fill="#4E927A" fill-opacity="0.85" stroke="#2C2C2A" stroke-opacity="0.25" stroke-width="0.5"/>
+<polygon points="556.8,143.8 575.0,154.3 550.2,173.1 535.9,164.8" fill="#4E927A" fill-opacity="0.85" stroke="#2C2C2A" stroke-opacity="0.25" stroke-width="0.5"/>
+<polygon points="535.9,164.8 550.2,173.1 527.7,187.9 515.0,180.6" fill="#86832D" fill-opacity="0.85" stroke="#2C2C2A" stroke-opacity="0.25" stroke-width="0.5"/>
+<polygon points="515.0,180.6 527.7,187.9 508.4,197.3 494.1,189.0" fill="#86832D" fill-opacity="0.85" stroke="#2C2C2A" stroke-opacity="0.25" stroke-width="0.5"/>
+<polygon points="494.1,189.0 508.4,197.3 491.4,202.7 473.2,192.2" fill="#4E927A" fill-opacity="0.85" stroke="#2C2C2A" stroke-opacity="0.25" stroke-width="0.5"/>
+<polygon points="575.0,154.3 593.2,164.8 564.6,181.4 550.2,173.1" fill="#539367" fill-opacity="0.85" stroke="#2C2C2A" stroke-opacity="0.25" stroke-width="0.5"/>
+<polygon points="550.2,173.1 564.6,181.4 540.5,195.3 527.7,187.9" fill="#A67037" fill-opacity="0.85" stroke="#2C2C2A" stroke-opacity="0.25" stroke-width="0.5"/>
+<polygon points="527.7,187.9 540.5,195.3 522.7,205.5 508.4,197.3" fill="#A67037" fill-opacity="0.85" stroke="#2C2C2A" stroke-opacity="0.25" stroke-width="0.5"/>
+<polygon points="508.4,197.3 522.7,205.5 509.5,213.2 491.4,202.7" fill="#539367" fill-opacity="0.85" stroke="#2C2C2A" stroke-opacity="0.25" stroke-width="0.5"/>
+<polygon points="593.2,164.8 564.6,181.4 564.6,197.9 593.2,185.8" fill="#539367" fill-opacity="0.85" stroke="#2C2C2A" stroke-opacity="0.25" stroke-width="0.5"/>
+<polygon points="593.2,185.8 564.6,197.9 564.6,214.5 593.2,206.8" fill="#4E927A" fill-opacity="0.85" stroke="#2C2C2A" stroke-opacity="0.25" stroke-width="0.5"/>
+<polygon points="593.2,206.8 564.6,214.5 564.6,231.0 593.2,227.8" fill="#4E927A" fill-opacity="0.85" stroke="#2C2C2A" stroke-opacity="0.25" stroke-width="0.5"/>
+<polygon points="593.2,227.8 564.6,231.0 564.6,247.6 593.2,248.8" fill="#539367" fill-opacity="0.85" stroke="#2C2C2A" stroke-opacity="0.25" stroke-width="0.5"/>
+<polygon points="564.6,181.4 540.5,195.3 540.5,210.0 564.6,197.9" fill="#A67037" fill-opacity="0.85" stroke="#2C2C2A" stroke-opacity="0.25" stroke-width="0.5"/>
+<polygon points="564.6,197.9 540.5,210.0 540.5,224.7 564.6,214.5" fill="#86832D" fill-opacity="0.85" stroke="#2C2C2A" stroke-opacity="0.25" stroke-width="0.5"/>
+<polygon points="564.6,214.5 540.5,224.7 540.5,239.4 564.6,231.0" fill="#86832D" fill-opacity="0.85" stroke="#2C2C2A" stroke-opacity="0.25" stroke-width="0.5"/>
+<polygon points="564.6,231.0 540.5,239.4 540.5,254.1 564.6,247.6" fill="#A67037" fill-opacity="0.85" stroke="#2C2C2A" stroke-opacity="0.25" stroke-width="0.5"/>
+<polygon points="540.5,195.3 522.7,205.5 522.7,222.1 540.5,210.0" fill="#A67037" fill-opacity="0.85" stroke="#2C2C2A" stroke-opacity="0.25" stroke-width="0.5"/>
+<polygon points="540.5,210.0 522.7,222.1 522.7,238.6 540.5,224.7" fill="#86832D" fill-opacity="0.85" stroke="#2C2C2A" stroke-opacity="0.25" stroke-width="0.5"/>
+<polygon points="540.5,224.7 522.7,238.6 522.7,255.2 540.5,239.4" fill="#86832D" fill-opacity="0.85" stroke="#2C2C2A" stroke-opacity="0.25" stroke-width="0.5"/>
+<polygon points="540.5,239.4 522.7,255.2 522.7,271.7 540.5,254.1" fill="#A67037" fill-opacity="0.85" stroke="#2C2C2A" stroke-opacity="0.25" stroke-width="0.5"/>
+<polygon points="522.7,205.5 509.5,213.2 509.5,234.2 522.7,222.1" fill="#539367" fill-opacity="0.85" stroke="#2C2C2A" stroke-opacity="0.25" stroke-width="0.5"/>
+<polygon points="522.7,222.1 509.5,234.2 509.5,255.2 522.7,238.6" fill="#4E927A" fill-opacity="0.85" stroke="#2C2C2A" stroke-opacity="0.25" stroke-width="0.5"/>
+<polygon points="522.7,238.6 509.5,255.2 509.5,276.1 522.7,255.2" fill="#4E927A" fill-opacity="0.85" stroke="#2C2C2A" stroke-opacity="0.25" stroke-width="0.5"/>
+<polygon points="522.7,255.2 509.5,276.1 509.5,297.1 522.7,271.7" fill="#539367" fill-opacity="0.85" stroke="#2C2C2A" stroke-opacity="0.25" stroke-width="0.5"/>
+<polygon points="436.8,171.2 455.0,181.7 455.0,202.7 436.8,192.2" fill="#378ADD" fill-opacity="0.85" stroke="#2C2C2A" stroke-opacity="0.25" stroke-width="0.5"/>
+<polygon points="436.8,192.2 455.0,202.7 455.0,223.7 436.8,213.2" fill="#378ADD" fill-opacity="0.85" stroke="#2C2C2A" stroke-opacity="0.25" stroke-width="0.5"/>
+<polygon points="436.8,213.2 455.0,223.7 455.0,244.7 436.8,234.2" fill="#378ADD" fill-opacity="0.85" stroke="#2C2C2A" stroke-opacity="0.25" stroke-width="0.5"/>
+<polygon points="436.8,234.2 455.0,244.7 455.0,265.6 436.8,255.2" fill="#378ADD" fill-opacity="0.85" stroke="#2C2C2A" stroke-opacity="0.25" stroke-width="0.5"/>
+<polygon points="455.0,181.7 473.2,192.2 473.2,213.2 455.0,202.7" fill="#378ADD" fill-opacity="0.85" stroke="#2C2C2A" stroke-opacity="0.25" stroke-width="0.5"/>
+<polygon points="455.0,202.7 473.2,213.2 473.2,234.2 455.0,223.7" fill="#378ADD" fill-opacity="0.85" stroke="#2C2C2A" stroke-opacity="0.25" stroke-width="0.5"/>
+<polygon points="455.0,223.7 473.2,234.2 473.2,255.2 455.0,244.7" fill="#378ADD" fill-opacity="0.85" stroke="#2C2C2A" stroke-opacity="0.25" stroke-width="0.5"/>
+<polygon points="455.0,244.7 473.2,255.2 473.2,276.1 455.0,265.6" fill="#378ADD" fill-opacity="0.85" stroke="#2C2C2A" stroke-opacity="0.25" stroke-width="0.5"/>
+<polygon points="473.2,192.2 491.4,202.7 491.4,223.7 473.2,213.2" fill="#378ADD" fill-opacity="0.85" stroke="#2C2C2A" stroke-opacity="0.25" stroke-width="0.5"/>
+<polygon points="473.2,213.2 491.4,223.7 491.4,244.7 473.2,234.2" fill="#378ADD" fill-opacity="0.85" stroke="#2C2C2A" stroke-opacity="0.25" stroke-width="0.5"/>
+<polygon points="473.2,234.2 491.4,244.7 491.4,265.6 473.2,255.2" fill="#378ADD" fill-opacity="0.85" stroke="#2C2C2A" stroke-opacity="0.25" stroke-width="0.5"/>
+<polygon points="473.2,255.2 491.4,265.6 491.4,286.6 473.2,276.1" fill="#378ADD" fill-opacity="0.85" stroke="#2C2C2A" stroke-opacity="0.25" stroke-width="0.5"/>
+<polygon points="491.4,202.7 509.5,213.2 509.5,234.2 491.4,223.7" fill="#378ADD" fill-opacity="0.85" stroke="#2C2C2A" stroke-opacity="0.25" stroke-width="0.5"/>
+<polygon points="491.4,223.7 509.5,234.2 509.5,255.2 491.4,244.7" fill="#378ADD" fill-opacity="0.85" stroke="#2C2C2A" stroke-opacity="0.25" stroke-width="0.5"/>
+<polygon points="491.4,244.7 509.5,255.2 509.5,276.1 491.4,265.6" fill="#378ADD" fill-opacity="0.85" stroke="#2C2C2A" stroke-opacity="0.25" stroke-width="0.5"/>
+<polygon points="491.4,265.6 509.5,276.1 509.5,297.1 491.4,286.6" fill="#378ADD" fill-opacity="0.85" stroke="#2C2C2A" stroke-opacity="0.25" stroke-width="0.5"/>
+
+<!-- transformation arrow -->
+<path d="M 262 210 L 352 210" fill="none" stroke="#5F5E5A" stroke-width="1.2" marker-end="url(#arrow)"/>
+<text class="th" x="307" y="193" text-anchor="middle">u(x)</text>
+<text class="ts" x="307" y="228" text-anchor="middle">global GN solve</text>
+
+<!-- labels -->
+<text class="th" x="165" y="325" text-anchor="middle">f(x)</text>
+<text class="ts" x="165" y="342" text-anchor="middle">reference volume</text>
+<text class="th" x="515" y="325" text-anchor="middle">g(x+u)</text>
+<text class="ts" x="515" y="342" text-anchor="middle">deformed volume</text>
+
+<!-- legend -->
+<rect x="260.0" y="355" width="3.8" height="14" fill="#378ADD"/>
+<rect x="263.3" y="355" width="3.8" height="14" fill="#398BD5"/>
+<rect x="266.7" y="355" width="3.8" height="14" fill="#3B8BCD"/>
+<rect x="270.0" y="355" width="3.8" height="14" fill="#3D8CC5"/>
+<rect x="273.3" y="355" width="3.8" height="14" fill="#3E8DBD"/>
+<rect x="276.7" y="355" width="3.8" height="14" fill="#408DB5"/>
+<rect x="280.0" y="355" width="3.8" height="14" fill="#428EAD"/>
+<rect x="283.3" y="355" width="3.8" height="14" fill="#448EA5"/>
+<rect x="286.7" y="355" width="3.8" height="14" fill="#468F9D"/>
+<rect x="290.0" y="355" width="3.8" height="14" fill="#489095"/>
+<rect x="293.3" y="355" width="3.8" height="14" fill="#4A908D"/>
+<rect x="296.7" y="355" width="3.8" height="14" fill="#4C9185"/>
+<rect x="300.0" y="355" width="3.8" height="14" fill="#4D927E"/>
+<rect x="303.3" y="355" width="3.8" height="14" fill="#4F9276"/>
+<rect x="306.7" y="355" width="3.8" height="14" fill="#51936E"/>
+<rect x="310.0" y="355" width="3.8" height="14" fill="#539466"/>
+<rect x="313.3" y="355" width="3.8" height="14" fill="#55945E"/>
+<rect x="316.7" y="355" width="3.8" height="14" fill="#579556"/>
+<rect x="320.0" y="355" width="3.8" height="14" fill="#59954E"/>
+<rect x="323.3" y="355" width="3.8" height="14" fill="#5B9646"/>
+<rect x="326.7" y="355" width="3.8" height="14" fill="#5C973E"/>
+<rect x="330.0" y="355" width="3.8" height="14" fill="#5E9736"/>
+<rect x="333.3" y="355" width="3.8" height="14" fill="#60982E"/>
+<rect x="336.7" y="355" width="3.8" height="14" fill="#629926"/>
+<rect x="340.0" y="355" width="3.8" height="14" fill="#669723"/>
+<rect x="343.3" y="355" width="3.8" height="14" fill="#6B9425"/>
+<rect x="346.7" y="355" width="3.8" height="14" fill="#719126"/>
+<rect x="350.0" y="355" width="3.8" height="14" fill="#768D28"/>
+<rect x="353.3" y="355" width="3.8" height="14" fill="#7B8A2A"/>
+<rect x="356.7" y="355" width="3.8" height="14" fill="#81872B"/>
+<rect x="360.0" y="355" width="3.8" height="14" fill="#86832D"/>
+<rect x="363.3" y="355" width="3.8" height="14" fill="#8C802F"/>
+<rect x="366.7" y="355" width="3.8" height="14" fill="#917D30"/>
+<rect x="370.0" y="355" width="3.8" height="14" fill="#967932"/>
+<rect x="373.3" y="355" width="3.8" height="14" fill="#9C7634"/>
+<rect x="376.7" y="355" width="3.8" height="14" fill="#A17336"/>
+<rect x="380.0" y="355" width="3.8" height="14" fill="#A77037"/>
+<rect x="383.3" y="355" width="3.8" height="14" fill="#AC6C39"/>
+<rect x="386.7" y="355" width="3.8" height="14" fill="#B1693B"/>
+<rect x="390.0" y="355" width="3.8" height="14" fill="#B7663C"/>
+<rect x="393.3" y="355" width="3.8" height="14" fill="#BC623E"/>
+<rect x="396.7" y="355" width="3.8" height="14" fill="#C25F40"/>
+<rect x="400.0" y="355" width="3.8" height="14" fill="#C75C41"/>
+<rect x="403.3" y="355" width="3.8" height="14" fill="#CC5843"/>
+<rect x="406.7" y="355" width="3.8" height="14" fill="#D25545"/>
+<rect x="410.0" y="355" width="3.8" height="14" fill="#D75247"/>
+<rect x="413.3" y="355" width="3.8" height="14" fill="#DD4E48"/>
+<rect x="416.7" y="355" width="3.8" height="14" fill="#E24B4A"/>
+<rect x="260" y="355" width="160" height="14" fill="none" stroke="#5F5E5A" stroke-width="0.5"/>
+<text class="ts" x="260" y="385" text-anchor="start">low distortion</text>
+<text class="ts" x="420" y="385" text-anchor="end">high distortion</text>
+</svg>

@@ -1,0 +1,17 @@
+# AI assistant guidance — local only, never pushed
+CLAUDE.md
+
+__pycache__/
+*.pyc
+*.egg-info/
+
+# Binary data — not tracked in git (except curated input assets)
+*.npy
+*.tif
+*.tiff
+!assets/*.npy
+!assets/**/*.npy
+
+# Local DVC test output directories
+/test_*/
+/dvc_*_test_gpu/

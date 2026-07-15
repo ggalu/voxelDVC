@@ -1,0 +1,27 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "voxeldvc"
+version = "0.1.0"
+description = "Matrix-free, GPU-accelerated (CuPy) Digital Volume Correlation"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "numpy",
+    "scipy",
+    "rich",
+    "tifffile",
+]
+
+[project.optional-dependencies]
+gpu = ["cupy-cuda12x[ctk]"]
+viz = ["napari[pyqt]", "matplotlib"]
+all = ["cupy-cuda12x[ctk]", "napari[pyqt]", "matplotlib"]
+
+[project.scripts]
+voxeldvc = "voxeldvc.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
